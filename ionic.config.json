@@ -1,0 +1,7 @@
+{
+  "name": "receitando-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
