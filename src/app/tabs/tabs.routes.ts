@@ -21,6 +21,16 @@ export const routes: Routes = [
         loadComponent: () =>
           import('../search/search.page').then((m) => m.SearchPage),
       },
+      {
+        path: 'profile',
+        loadComponent: () =>
+          import('../profile/profile.page').then((m) => m.ProfilePage),
+      },
+      {
+        path: 'exit',
+        loadComponent: () =>
+          import('../exit/exit.page').then((m) => m.ExitPage),
+      },
     ],
   },
   {
