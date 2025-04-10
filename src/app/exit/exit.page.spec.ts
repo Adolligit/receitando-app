@@ -1,12 +1,12 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { Tab4Page } from './tab4.page';
+import { ExitPage } from './exit.page';
 
-describe('Tab4Page', () => {
-  let component: Tab4Page;
-  let fixture: ComponentFixture<Tab4Page>;
+describe('ExitPage', () => {
+  let component: ExitPage;
+  let fixture: ComponentFixture<ExitPage>;
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Tab4Page);
+    fixture = TestBed.createComponent(ExitPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
