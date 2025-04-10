@@ -12,9 +12,9 @@ export const routes: Routes = [
           import('../home/home.page').then((m) => m.Home),
       },
       {
-        path: 'tab2',
+        path: 'notification',
         loadComponent: () =>
-          import('../tab2/tab2.page').then((m) => m.Tab2Page),
+          import('../notification/notification.page').then((m) => m.NotificationPage),
       },
       {
         path: 'tab3',
