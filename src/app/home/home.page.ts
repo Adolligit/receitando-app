@@ -8,6 +8,6 @@ import { ExploreContainerComponent } from '../explore-container/explore-containe
   styleUrls: ['home.page.scss'],
   imports: [IonHeader, IonToolbar, IonTitle, IonContent, ExploreContainerComponent, IonIcon],
 })
-export class Home {
+export class HomePage {
   constructor() {}
 }
