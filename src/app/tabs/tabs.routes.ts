@@ -16,11 +16,9 @@ export const routes: Routes = [
         loadComponent: () =>
           import('../notification/notification.page').then((m) => m.NotificationPage),
       },
-      {
-        path: 'search',
-        loadComponent: () =>
-          import('../search/search.page').then((m) => m.SearchPage),
-      },
+      
+       
+      
       {
         path: 'profile',
         loadComponent: () =>
