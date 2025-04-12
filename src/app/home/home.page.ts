@@ -11,7 +11,6 @@ import {
   IonTitle,
   IonToolbar,
 } from '@ionic/angular/standalone';
-import { ExploreContainerComponent } from '../explore-container/explore-container.component';
 import { CardsComponent } from './cards/cards.component';
 
 @Component({
@@ -23,7 +22,6 @@ import { CardsComponent } from './cards/cards.component';
     IonToolbar,
     IonTitle,
     IonContent,
-    ExploreContainerComponent,
     IonIcon,
     IonSearchbar,
     CardsComponent,
