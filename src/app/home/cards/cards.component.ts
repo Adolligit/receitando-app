@@ -6,13 +6,10 @@ import {
   IonCardSubtitle,
   IonCardTitle,
   IonContent,
-  IonHeader,
   IonItem,
   IonLabel,
   IonList,
   IonThumbnail,
-  IonTitle,
-  IonToolbar,
 } from '@ionic/angular/standalone';
 
 @Component({
@@ -21,10 +18,6 @@ import {
   styleUrls: ['./cards.component.scss'],
   imports: [
     IonCard,
-    IonHeader,
-    IonToolbar,
-    IonTitle,
-    IonContent,
     IonCardContent,
     IonCardHeader,
     IonCardSubtitle,

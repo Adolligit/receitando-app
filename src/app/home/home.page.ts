@@ -22,16 +22,10 @@ import { CardsComponent } from './cards/cards.component';
     IonToolbar,
     IonTitle,
     IonContent,
-    IonIcon,
     IonSearchbar,
     CardsComponent,
-    IonList,
-    IonLabel,
-    IonItem,
-    IonThumbnail,
   ],
 })
 export class HomePage {
-  teste = "Vindo do Pai"
   constructor() {}
 }

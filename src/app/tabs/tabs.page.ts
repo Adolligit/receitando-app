@@ -8,12 +8,9 @@ import {
 } from '@ionic/angular/standalone';
 import { addIcons } from 'ionicons';
 import {
-  exitOutline,
   heartOutline,
   homeOutline,
-  notificationsOutline,
   personOutline,
-  searchOutline,
 } from 'ionicons/icons';
 
 @Component({

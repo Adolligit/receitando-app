@@ -17,6 +17,11 @@ export const routes: Routes = [
           import('../notification/notification.page').then((m) => m.NotificationPage),
       },
       {
+        path: 'favorites',
+        loadComponent: () =>
+          import('../favorite/favorite.page').then((m) => m.FavoritePage),
+      },
+      {
         path: 'profile',
         loadComponent: () =>
           import('../profile/profile.page').then((m) => m.ProfilePage),
