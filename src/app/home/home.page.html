@@ -1,15 +1,41 @@
 <ion-header class="ion-no-border">
-  <ion-searchbar></ion-searchbar>
+  <ion-searchbar/>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Home</ion-title>
-    
     </ion-toolbar>
   </ion-header>
-  <ion-label></ion-label>
-  <app-cards/>
-
+  <app-cards
+    title="Fast-Food"
+    subtitle="Para você que está sem tempo!"
+    firstImg=""
+    firstLabel=""
+    secondImg=""
+    secondLabel=""
+    thirdImg=""
+    thirdLabel=""
+  />
+  <app-cards
+    title="Fit-Food"
+    subtitle="Para os que querem manter uma vida saudável" 
+    firstImg="https://static.itdg.com.br/images/640-400/781dc3bfbce7e06ecb277c4658620117/335715-original.jpg"
+    firstLabel="Filé de peixe ao leite de coco"
+    secondImg="https://static.itdg.com.br/images/640-400/188ced05d244d76055fd217ac0d3d1d5/strogonoff-vegetariano.jpg"
+    secondLabel="Estrogonofe vegetariano"
+    thirdImg="https://static.itdg.com.br/images/640-400/cceca6bb6e2845262bd59aab270c4239/shutterstock-590193029-1-.jpg"
+    thirdLabel="Filé de salmão ao forno facílimo"
+  />
+  <app-cards
+    title="Brasileira"
+    subtitle="Aprenda a cozinhar com o melhor do nosso Brasil!" 
+    firstImg=""
+    firstLabel=""
+    secondImg=""
+    secondLabel=""
+    thirdImg=""
+    thirdLabel=""
+  />
 </ion-content>

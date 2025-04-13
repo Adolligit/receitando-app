@@ -1,36 +1,27 @@
 <ion-card>
   <ion-card-header>
-    <ion-card-title>Fast Food</ion-card-title>
-    <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+    <ion-card-title>{{ title }}</ion-card-title>
+    <ion-card-subtitle>{{ subtitle }}</ion-card-subtitle>
   </ion-card-header>
   <ion-card-content>
     <ion-list>
       <ion-item>
         <ion-thumbnail slot="start">
-          <img alt="Silhouette of mountains" src="https://cdn.abrahao.com.br/base/3d9/dab/e52/propaganda-de-hamburguer.jpg" />
+          <img alt="" src="{{firstImg}}" />
         </ion-thumbnail>
-        <ion-label>Hambúrguer</ion-label>
+        <ion-label>{{firstLabel}}</ion-label>
       </ion-item>
-
       <ion-item>
         <ion-thumbnail slot="start">
-          <img alt="Silhouette of mountains" src="https://meupaocaseiro.com.br/wp-content/uploads/2022/06/20220623_154853_0000-1024x1024.jpg" />
+          <img alt="" src="{{secondImg}}" />
         </ion-thumbnail>
-        <ion-label>Hot-Dog</ion-label>
+        <ion-label>{{secondLabel}}</ion-label>
       </ion-item>
-
-      <ion-item>
-        <ion-thumbnail slot="start">
-          <img alt="Silhouette of mountains" src="https://www.tendaatacado.com.br/dicas/wp-content/uploads/2022/06/como-fazer-batata-frita-topo.jpg" />
-        </ion-thumbnail>
-        <ion-label>Batata-Frita</ion-label>
-      </ion-item>
-
       <ion-item lines="none">
         <ion-thumbnail slot="start">
-          <img alt="Silhouette of mountains" src="https://www.minhareceita.com.br/app/uploads/2022/12/pizza-de-pepperoni-caseira-portal-minha-receita.jpg" />
+          <img alt="" src="{{thirdImg}}" />
         </ion-thumbnail>
-        <ion-label>Pizza</ion-label>
+        <ion-label>{{thirdLabel}}</ion-label>
       </ion-item>
     </ion-list>
   </ion-card-content>

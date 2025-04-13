@@ -32,5 +32,6 @@ import { CardsComponent } from './cards/cards.component';
   ],
 })
 export class HomePage {
+  teste = "Vindo do Pai"
   constructor() {}
 }
