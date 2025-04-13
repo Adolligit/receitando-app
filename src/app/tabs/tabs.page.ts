@@ -9,6 +9,7 @@ import {
 import { addIcons } from 'ionicons';
 import {
   exitOutline,
+  heartOutline,
   homeOutline,
   notificationsOutline,
   personOutline,
@@ -26,11 +27,9 @@ export class TabsPage {
 
   constructor() {
     addIcons({
+      heartOutline,
       homeOutline,
-      notificationsOutline,
-      searchOutline,
       personOutline,
-      exitOutline,
     });
   }
 }
