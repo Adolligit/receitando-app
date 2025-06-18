@@ -136,10 +136,12 @@
   },
   "schematics": {
     "@ionic/angular-toolkit:component": {
-      "styleext": "scss"
+      "styleext": "scss",
+      "path": "src/app/components"
     },
     "@ionic/angular-toolkit:page": {
-      "styleext": "scss"
+      "styleext": "scss",
+      "path": "src/app/pages"
     },
     "@angular-eslint/schematics:application": {
       "setParserOptionsProject": true
