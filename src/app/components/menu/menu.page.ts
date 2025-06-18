@@ -15,11 +15,11 @@ import {
 
 @Component({
   selector: 'app-tabs',
-  templateUrl: 'tabs.page.html',
-  styleUrls: ['tabs.page.scss'],
+  templateUrl: 'menu.page.html',
+  styleUrls: ['menu.page.scss'],
   imports: [IonTabs, IonTabBar, IonTabButton, IonIcon, IonLabel, IonIcon],
 })
-export class TabsPage {
+export class MenuPage {
   public environmentInjector = inject(EnvironmentInjector);
 
   constructor() {

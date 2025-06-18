@@ -1,8 +1,20 @@
 import { Routes } from '@angular/router';
+import { RegisterPage } from './pages/register/register.page';
 
 export const routes: Routes = [
   {
     path: '',
-    loadChildren: () => import('./tabs/tabs.routes').then((m) => m.routes),
+    redirectTo: '/register',
+    pathMatch: 'full',
+  },
+  {
+    path: 'register',
+    pathMatch: 'full',
+    component: RegisterPage,
+  },
+  {
+    path: '',
+    loadChildren: () =>
+      import('./components/menu/menu.routes').then((m) => m.routes),
   },
 ];
