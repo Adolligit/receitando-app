@@ -1,0 +1,41 @@
+Entidades:
+- User;
+- Recipe;
+- Ingredient;
+
+User:
+id
+name
+bio
+nationality
+age
+email
+password
+dt_create
+dt_update
+
+Recipe:
+id
+name
+description
+photo (embed/link)
+video (embed/link)
+dt_create
+dt_update
+
+Ingredient:
+id
+name
+dt_create
+dt_update
+
+Associate Tables
+
+user_recipes:
+id_user
+id_recipe
+dt_add
+
+recipe_ingredients:
+id_recipe
+id_ingredient
