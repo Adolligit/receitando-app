@@ -1,17 +1,16 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { Router } from '@angular/router';
 import {
-  IonButton,
   IonContent,
   IonHeader,
-  IonInput,
-  IonItem,
-  IonLabel,
-  IonList,
   IonTitle,
   IonToolbar,
+  IonInput,
+  IonItem,
+  IonList,
+  IonButton,
+    IonLabel
 } from '@ionic/angular/standalone';
 
 @Component({
@@ -34,15 +33,7 @@ import {
   ],
 })
 export class LoginPage implements OnInit {
-  constructor(private router: Router) {}
+  constructor() {}
 
   ngOnInit() {}
-
-  public onClickRegister(): void {
-    this.router.navigate(['/register']);
-  }
-
-  public onClickContinue(): void {
-    this.router.navigate(['/menu']);
-  }
 }
