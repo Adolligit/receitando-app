@@ -25,13 +25,12 @@
         <ion-input type="password" value="password"></ion-input>
       </ion-item>
     </ion-list>
-    <ion-button color="dark">Continuar</ion-button>
-    <u>Redefinir minha senha</u>
+    <ion-button color="dark" (click)="onClickContinue()">Continuar</ion-button>
+    <p>Redefinir minha senha</p>
+    <ion-button color="medium" (click)="onClickRegister()">Criar Cadastro</ion-button>
   </div>
-  <p>ou</p>
   <div>
-    <ion-button color="medium">Criar Cadastro</ion-button>
-    <ion-button color="light">Continuar com o Google</ion-button>
-    <ion-button color="light">Continuar com o Apple</ion-button>
+    <!-- <ion-button color="light">Continuar com o Google</ion-button>
+    <ion-button color="light">Continuar com o Apple</ion-button> -->
   </div>
 </ion-content>
