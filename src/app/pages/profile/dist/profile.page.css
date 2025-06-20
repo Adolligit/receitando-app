@@ -1,0 +1,15 @@
+#title {
+  text-align: center;
+}
+
+ion-icon {
+  font-size: 27px;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+
+ion-button {
+  align: right;
+  color: black;
+}

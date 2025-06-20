@@ -1,2 +1,36 @@
 // For information on how to create your own theme, please see:
 // http://ionicframework.com/docs/theming/
+:root {
+	--ion-color-receitando: #F0E0C9;
+	--ion-color-receitando-rgb: 240,224,201;
+	--ion-color-receitando-contrast: #000000;
+	--ion-color-receitando-contrast-rgb: 0,0,0;
+	--ion-color-receitando-shade: #d3c5b1;
+	--ion-color-receitando-tint: #f2e3ce;
+}
+
+.ion-color-receitando {
+	--ion-color-base: var(--ion-color-receitando);
+	--ion-color-base-rgb: var(--ion-color-receitando-rgb);
+	--ion-color-contrast: var(--ion-color-receitando-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-receitando-contrast-rgb);
+	--ion-color-shade: var(--ion-color-receitando-shade);
+	--ion-color-tint: var(--ion-color-receitando-tint);
+}
+:root {
+	--ion-color-redreceitando: #932208;
+	--ion-color-redreceitando-rgb: 147,34,8;
+	--ion-color-redreceitando-contrast: #ffffff;
+	--ion-color-redreceitando-contrast-rgb: 255,255,255;
+	--ion-color-redreceitando-shade: #811e07;
+	--ion-color-redreceitando-tint: #9e3821;
+}
+
+.ion-color-redreceitando {
+	--ion-color-base: var(--ion-color-redreceitando);
+	--ion-color-base-rgb: var(--ion-color-redreceitando-rgb);
+	--ion-color-contrast: var(--ion-color-redreceitando-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-redreceitando-contrast-rgb);
+	--ion-color-shade: var(--ion-color-redreceitando-shade);
+	--ion-color-tint: var(--ion-color-redreceitando-tint);
+}
