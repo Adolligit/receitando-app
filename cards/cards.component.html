@@ -1,0 +1,28 @@
+<ion-card color="redreceitando">
+  <ion-card-header>
+    <ion-card-title>{{ title }}</ion-card-title>
+    <ion-card-subtitle>{{ subtitle }}</ion-card-subtitle>
+  </ion-card-header>
+  <ion-card-content>
+    <ion-list>
+      <ion-item color="receitando">
+        <ion-thumbnail slot="start">
+          <img alt="" src="{{firstImg}}" />
+        </ion-thumbnail>
+        <ion-label>{{firstLabel}}</ion-label>
+      </ion-item>
+      <ion-item color="receitando">
+        <ion-thumbnail slot="start">
+          <img alt="" src="{{secondImg}}" />
+        </ion-thumbnail>
+        <ion-label>{{secondLabel}}</ion-label>
+      </ion-item>
+      <ion-item color="receitando" lines="none">
+        <ion-thumbnail slot="start">
+          <img alt="" src="{{thirdImg}}" />
+        </ion-thumbnail>
+        <ion-label>{{thirdLabel}}</ion-label>
+      </ion-item>
+    </ion-list>
+  </ion-card-content>
+</ion-card>
