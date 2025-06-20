@@ -8,7 +8,7 @@ id
 name
 bio
 nationality
-age
+dob
 email
 password
 dt_create

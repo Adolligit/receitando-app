@@ -10,4 +10,30 @@
       <ion-title size="large">Register</ion-title>
     </ion-toolbar>
   </ion-header>
+  <div class="ion-text-center">
+    <img src="assets/images/logo.png" alt=""><img>
+  </div>
+  <div class="ion-text-center" id="descriptions" color="dark">
+    <ion-label>Faça seu cadastro</ion-label>
+    <p>Digite o e-mail e a senha do perfil</p>
+    <ion-label>
+      Usuário:
+      <ion-input type="text" placeholder="Seu novo apelido no app"></ion-input>
+    </ion-label>
+    <ion-label>
+      E-mail:
+      <ion-input type="email" placeholder="Seu melhor e-mail"></ion-input>
+    </ion-label>
+    <ion-label>
+      Senha:
+      <ion-input type="password" placeholder="Uma senha segura, por favor"></ion-input>
+    </ion-label>
+    <ion-checkbox></ion-checkbox>
+    <ion-label>
+    Nós, da equipe Receitando, respeitamos sua privacidade e nos comprometemos a proteger seus dados pessoais. Este Termo de Privacidade descreve como coletamos, usamos e protegemos as informações dos usuários do nosso aplicativo.
+    </ion-label>
+  </div>
+  <ion-button (click)="onClickRegister()" expand="block" color="dark">
+    Cadastrar
+  </ion-button>
 </ion-content>

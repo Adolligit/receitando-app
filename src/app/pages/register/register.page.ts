@@ -1,20 +1,44 @@
-import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Component, inject, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { IonContent, IonHeader, IonTitle, IonToolbar } from '@ionic/angular/standalone';
+import { Router } from '@angular/router';
+import {
+  IonButton,
+  IonCheckbox,
+  IonContent,
+  IonHeader,
+  IonInput,
+  IonLabel,
+  IonTitle,
+  IonToolbar,
+} from '@ionic/angular/standalone';
 
 @Component({
   selector: 'app-register',
   templateUrl: './register.page.html',
   styleUrls: ['./register.page.scss'],
   standalone: true,
-  imports: [IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule]
+  imports: [
+    IonButton,
+    IonInput,
+    IonLabel,
+    IonContent,
+    IonHeader,
+    IonTitle,
+    IonToolbar,
+    CommonModule,
+    FormsModule,
+    IonCheckbox,
+  ],
 })
 export class RegisterPage implements OnInit {
+  constructor() {}
 
-  constructor() { }
+  private router: Router = inject(Router);
 
-  ngOnInit() {
+  ngOnInit() {}
+
+  public onClickRegister(): void {
+    this.router.navigate(['home']);
   }
-
 }
