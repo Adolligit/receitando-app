@@ -1,16 +1,17 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { Router } from '@angular/router';
 import {
+  IonButton,
   IonContent,
   IonHeader,
-  IonTitle,
-  IonToolbar,
   IonInput,
   IonItem,
+  IonLabel,
   IonList,
-  IonButton,
-    IonLabel
+  IonTitle,
+  IonToolbar,
 } from '@ionic/angular/standalone';
 
 @Component({
@@ -35,5 +36,15 @@ import {
 export class LoginPage implements OnInit {
   constructor() {}
 
+  private router: Router = inject(Router);
+
   ngOnInit() {}
+
+  public goToMenu(): void {
+    this.router.navigate(['home']);
+  }
+
+  public goToRegister(): void {
+    this.router.navigate(['register']);
+  }
 }
