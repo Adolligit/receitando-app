@@ -11,11 +11,11 @@
     </ion-toolbar>
   </ion-header>
   <div class="ion-text-center">
-    <img src="assets/images/logo.png" alt=""><img>
+  <img src="assets/images/logo.png" alt=""><img>
   </div>
-  <div class="ion-text-center" id="descriptions" color="dark">
-    <ion-label>Faça login para continuar</ion-label>
-    <p>Digite o e-mail e a senha do perfil</p>
+  <div class="ion-text-center" id="descriptions">
+    <ion-label color="light">Faça login para continuar</ion-label>
+    <p><ion-label color="light">Digite o e-mail e a senha do perfil</ion-label></p>
   </div>
   
   <div id="login">
@@ -27,7 +27,7 @@
         <ion-input type="password" value="password"></ion-input>
       </ion-item>
     </ion-list>
-    <p>Redefinir minha senha</p>
+    <p><ion-label color="light">Redefinir minha senha</ion-label></p>
     <ion-button color="dark" (click)="goToMenu()">Continuar</ion-button>
     <ion-button color="medium" (click)="goToRegister()">Criar Cadastro</ion-button>
   </div>

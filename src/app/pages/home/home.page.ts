@@ -2,16 +2,12 @@ import { Component } from '@angular/core';
 import {
   IonContent,
   IonHeader,
-  IonIcon,
-  IonItem,
-  IonLabel,
-  IonList,
   IonSearchbar,
-  IonThumbnail,
   IonTitle,
   IonToolbar,
 } from '@ionic/angular/standalone';
-import { CardsComponent } from './cards/cards.component';
+import { CardsComponent } from '../../components/cards/cards.component';
+import { CarouselComponent } from 'src/app/components/carousel/carousel.component';
 
 @Component({
   selector: 'app-home',
@@ -24,6 +20,7 @@ import { CardsComponent } from './cards/cards.component';
     IonContent,
     IonSearchbar,
     CardsComponent,
+    CarouselComponent,
   ],
 })
 export class HomePage {
