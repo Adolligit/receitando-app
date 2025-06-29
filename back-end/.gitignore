@@ -70,3 +70,7 @@ testem.log
 .DS_Store
 Thumbs.db
 /others
+
+
+# Enviroment Varable
+.env
