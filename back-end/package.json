@@ -2,8 +2,13 @@
   "name": "backend-receitando",
   "version": "0.0.1",
   "description": "Um back-end simples para auxiliar no funcionamento das telas do front-end",
-  "main": "index.js",
+  "main": "./src/app.js",
+  "module": "es6",
+  "config": {
+    "app": "./src/app.js"
+  },
   "scripts": {
+    "dev": "nodemon $npm_package_config_server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +20,20 @@
   "bugs": {
     "url": "https://github.com/Adolligit/receitando-app/issues"
   },
-  "homepage": "https://github.com/Adolligit/receitando-app#readme"
+  "homepage": "https://github.com/Adolligit/receitando-app#readme",
+  "devDependencies": {
+    "eslint": "^9.30.0",
+    "express-async-errors": "^3.1.1",
+    "http-status": "^2.1.0",
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "md5": "^2.3.0",
+    "swagger-ui-express": "^5.0.1"
+  }
 }
