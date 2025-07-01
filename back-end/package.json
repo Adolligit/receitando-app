@@ -2,10 +2,10 @@
   "name": "backend-receitando",
   "version": "0.0.1",
   "description": "Um back-end simples para auxiliar no funcionamento das telas do front-end",
-  "main": "./src/app.js",
-  "module": "es6",
+  "main": "./src/server.js",
+  "type": "module",
   "config": {
-    "app": "./src/app.js"
+    "app": "./src/server.js"
   },
   "scripts": {
     "dev": "nodemon $npm_package_config_server",
