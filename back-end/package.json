@@ -3,9 +3,10 @@
   "version": "0.0.1",
   "description": "Um back-end simples para auxiliar no funcionamento das telas do front-end",
   "main": "./src/server.js",
-  "type": "module",
+  "type": "commonjs",
   "config": {
-    "app": "./src/server.js"
+    "app": "./src/server.js",
+    "sequelize": "npx sequelize"
   },
   "scripts": {
     "dev": "nodemon $npm_package_config_server",

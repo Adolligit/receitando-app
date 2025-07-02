@@ -4,4 +4,4 @@ function all (req, res) {
 }
 
 
-export default { all };
+module.exports = { all };
