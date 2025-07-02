@@ -10,6 +10,11 @@
   },
   "scripts": {
     "dev": "nodemon $npm_package_config_server",
+    "model:create": "$npm_package_config_sequelize model:create",
+    "migra": "$npm_package_config_sequelize db:migrate",
+    "migra:undo": "$npm_package_config_sequelize db:migrate:undo",
+    "migra:unall": "$npm_package_scripts_sequelize db:migrate:undo:all",
+    "reset": "$npm_package_config_sequelize db:drop && $npm_package_config_sequelize db:create && $npm_package_scripts_migra",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
